@@ -8,3 +8,10 @@ In order to use the code, you first need to update the URL in the "Gerrit_Miner_
 Next, you will update the start date from the date you want to start data extraction. These are the only changes needed in the code, and you are good to go.
 
 You will first run "Gerrit_Miner_New.ipynb" to extract the code changes and code review comments in separate files. Next, you will run "PreProcessforTM_Gerrit .ipynb" to preprocess the code review comments.
+
+So far, if we follow these steps, we will have the pre-processed data in "data_cleaned.csv". We need to store this data in a text file. We will call it "corpus.txt".
+
+Ensure that java is available on your system environment for the next steps. You can download Jave JDK from here: https://www.java.com/en/download/help/mac_install.html. 
+
+Now we download the Short Text Topic Model implementation by Qiang et al. from https://github.com/qiang2100/STTM. For convenience, we have uploaded the same as a zip file. 
+
